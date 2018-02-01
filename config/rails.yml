@@ -1,0 +1,21 @@
+AllCops:
+  Exclude:
+    - 'bin/webpack'
+    - 'bin/webpack-dev-server'
+    - 'db/schema.rb'
+
+Rails:
+  Enabled: true
+
+Rails/Output:
+  Exclude:
+    - 'db/seeds/**'
+    - 'db/seeds.rb'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/**'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'config/routes.rb'

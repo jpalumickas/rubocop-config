@@ -1,0 +1,34 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/Capfile'
+    - '**/Gemfile'
+    - '**/config.ru'
+  Exclude:
+    - 'node_modules/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Layout/AlignParameters:
+  Enabled: true
+  EnforcedStyle: with_fixed_indentation
+
+Layout/MultilineOperationIndentation:
+  Enabled: true
+  EnforcedStyle: indented
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: true
+  EnforcedStyle: indented
+
+Layout/CaseIndentation:
+  Enabled: true
+  EnforcedStyle: end
+
+Lint/EndAlignment:
+  Enabled: true
+  EnforcedStyleAlignWith: variable
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
