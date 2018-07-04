@@ -7,7 +7,7 @@ Shared RuboCop config for my personal projects
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jpalumickas-rubocop-config',
+gem 'rubocop-jpalumickas-config',
   github: 'jpalumickas/rubocop-config', require: false
 ```
 
@@ -15,7 +15,7 @@ gem 'jpalumickas-rubocop-config',
 
 ```yml
 inherit_gem:
-  jpalumickas-rubocop-config:
+  rubocop-jpalumickas-config:
     - "config/rubocop.yml"
     # uncomment if use Rails cops
     # - "config/rails.yml"
@@ -23,7 +23,7 @@ inherit_gem:
 AllCops:
   TargetRubyVersion: 2.5
   # uncomment if use rails cops
-  # TargetRailsVersion: 5.1
+  # TargetRailsVersion: 5.2
 ```
 
 ## License

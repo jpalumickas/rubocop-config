@@ -1,9 +1,4 @@
 AllCops:
-  Include:
-    - '**/Rakefile'
-    - '**/Capfile'
-    - '**/Gemfile'
-    - '**/config.ru'
   Exclude:
     - 'node_modules/**/*'
 

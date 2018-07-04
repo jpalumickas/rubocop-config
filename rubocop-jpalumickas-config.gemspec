@@ -2,7 +2,7 @@ lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = 'jpalumickas-rubocop-config'
+  spec.name          = 'rubocop-jpalumickas-config'
   spec.version       = '0.0.1'
   spec.authors       = ['Justas Palumickas']
   spec.email         = ['jpalumickas@gmail.com']
@@ -30,5 +30,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.16'
-  spec.add_development_dependency 'rubocop', '~> 0.53'
+  spec.add_development_dependency 'rubocop', '~> 0.57'
 end
