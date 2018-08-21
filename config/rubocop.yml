@@ -1,5 +1,9 @@
 AllCops:
   Exclude:
+    - 'bin/cap'
+    - 'bin/capify'
+    - 'bin/rake'
+    - 'bin/rubocop'
     - 'node_modules/**/*'
 
 Style/Documentation:
