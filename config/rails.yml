@@ -1,5 +1,11 @@
 AllCops:
   Exclude:
+    - 'bin/cap'
+    - 'bin/capify'
+    - 'bin/rubocop'
+    - 'bin/rails'
+    - 'bin/rake'
+    - 'bin/bundle'
     - 'bin/webpack'
     - 'bin/webpack-dev-server'
     - 'db/schema.rb'
