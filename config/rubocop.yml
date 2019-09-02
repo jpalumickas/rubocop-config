@@ -13,6 +13,10 @@ Layout/AlignParameters:
   Enabled: true
   EnforcedStyle: with_fixed_indentation
 
+Layout/AlignArguments:
+  Enabled: true
+  EnforcedStyle: with_fixed_indentation
+
 Layout/MultilineOperationIndentation:
   Enabled: true
   EnforcedStyle: indented
