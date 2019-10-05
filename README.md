@@ -21,9 +21,9 @@ inherit_gem:
     # - "config/rails.yml"
 
 AllCops:
-  TargetRubyVersion: 2.5
+  TargetRubyVersion: 2.2
   # uncomment if use rails cops
-  # TargetRailsVersion: 5.2
+  # TargetRailsVersion: 6.0
 ```
 
 ## License
