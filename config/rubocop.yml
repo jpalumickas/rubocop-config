@@ -38,3 +38,6 @@ Layout/EndAlignment:
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*_spec.rb'
+
+Style/EmptyMethod:
+  Enabled: false

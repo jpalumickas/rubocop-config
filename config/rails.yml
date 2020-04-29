@@ -27,3 +27,6 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   Exclude:
     - 'config/routes.rb'
+
+Rails/FilePath:
+  EnforcedStyle: arguments
