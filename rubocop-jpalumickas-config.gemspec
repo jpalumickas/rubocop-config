@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'rubocop-jpalumickas-config'
-  spec.version       = '0.1.0'
+  spec.version       = '0.2.0'
   spec.authors       = ['Justas Palumickas']
   spec.email         = ['jpalumickas@gmail.com']
 
@@ -31,8 +31,8 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rubocop', '~> 0.82'
-  spec.add_dependency 'rubocop-performance', '~> 1.5'
-  spec.add_dependency 'rubocop-rails', '~> 2.5'
-  spec.add_development_dependency 'bundler', '~> 2.0'
+  spec.add_dependency 'rubocop', '~> 0.86'
+  spec.add_dependency 'rubocop-performance', '~> 1.6'
+  spec.add_dependency 'rubocop-rails', '~> 2.6'
+  spec.add_development_dependency 'bundler', '~> 2.1'
 end
