@@ -26,9 +26,9 @@ Gem::Specification.new do |spec|
   spec.bindir = 'exe'
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
-  spec.required_ruby_version = '>= 2.6'
+  spec.required_ruby_version = '>= 2.7'
 
-  spec.add_dependency 'rubocop', '~> 1.37'
-  spec.add_dependency 'rubocop-performance', '~> 1.15'
-  spec.add_dependency 'rubocop-rails', '~> 2.17'
+  spec.add_dependency 'rubocop', '~> 1.71'
+  spec.add_dependency 'rubocop-performance', '~> 1.23'
+  spec.add_dependency 'rubocop-rails', '~> 2.29'
 end
